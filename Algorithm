@@ -1,0 +1,48 @@
+Aim: To classify a cricket player as the Best All-Round Performer based on batting, bowling, and fielding performance using branching statements.
+
+Step 1: Start.
+
+Step 2: Read the runs scored, balls faced, overs bowled, runs conceded, wickets taken, and catches taken by the player.
+
+Step 3: Calculate the batting strike rate by dividing runs scored by balls faced and multiplying by 100.
+
+Step 4: Calculate the economy rate by dividing runs conceded by overs bowled.
+
+Step 5: Display the strike rate and the economy rate.
+
+Step 6: Check the batting performance:
+
+If the runs scored are 50 or more and the strike rate is 120 or more, the batter is Excellent.
+Otherwise, if the runs scored are 30 or more and the strike rate is 100 or more, the batter is Good.
+Otherwise, if the runs scored are 20 or more, the batter is Average.
+Otherwise, the batter is Poor.
+
+Step 7: Display the batting result.
+
+Step 8: Check the bowling performance:
+
+If the wickets taken are 3 or more and the economy rate is 6 or less, the bowler is Excellent.
+Otherwise, if the wickets taken are 2 or more and the economy rate is 8 or less, the bowler is Good.
+Otherwise, if the wickets taken are 1 or more, the bowler is Average.
+Otherwise, the bowler is Poor.
+
+Step 9: Display the bowling result.
+
+Step 10: Check the fielding performance:
+
+If the catches taken are 2 or more, the fielder is Outstanding.
+Otherwise, if the catches taken are exactly 1, the fielder is Active.
+Otherwise, the fielder Needs Improvement.
+
+Step 11: Display the fielding result.
+
+Step 12: Decide the overall performance:
+
+If the batter is Excellent and the bowler is Excellent, the player is a Star All-Rounder.
+Otherwise, if the batter is Good and the bowler is Good, the player is a Strong All-Rounder.
+Otherwise, if the batter is Good or the bowler is Good, the player is a Supporting All-Rounder.
+Otherwise, the player Needs Improvement.
+
+Step 13: Display the overall result.
+
+Step 14: Stop.
